@@ -17,7 +17,7 @@ task 7: end_task - an empty task using EmptyOperator that concludes our DAG.
 
 The graph for this DAG looks like this:
 
-[Apple_DAG](images/apple_dag.png)
+![Apple_DAG](images/apple_dag.png)
 
 Here, we can see that the first three tasks run consecutively. Then, the graph fans out into the three random apple tasks, and fans back into an empty end task that concludes our executed run. the entire DAG code can be found [here](dsa-airflow/dags/code_review.py).
  
